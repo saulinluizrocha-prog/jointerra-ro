@@ -352,7 +352,7 @@
     <div class="order-card">
       <img class="prod-img" src="assets/images/products/product1.png" alt="Jointerra" onerror="this.style.display='none'">
       <div class="order-info">
-        <div class="order-number">📦 COMANDA DVS.</div>
+        <div class="order-number">📦 COMANDA DVS. &nbsp;|&nbsp; <span id="order-id-display">Nr. ...</span></div>
         <div class="order-name">Jointerra</div>
         <div class="order-sub">Capsule pentru articulații · Curs de 30 de zile<br>Livrare prin curier la adresa dvs.</div>
       </div>
@@ -448,14 +448,7 @@
       </div>
     </div>
 
-    <!-- GUARANTEE -->
-    <div class="guarantee-box">
-      <div class="gu-icon">🏅</div>
-      <div>
-        <h3>Garanție 100% — 365 de zile</h3>
-        <p>Dacă nu sunteți mulțumit de rezultate, vă returnăm banii în totalitate în termen de 365 de zile. Fără întrebări, fără birocrație. Riscul este zero pentru dvs.</p>
-      </div>
-    </div>
+
 
   </div><!-- /page-wrap -->
 
@@ -487,6 +480,18 @@
         setTimeout(update, 1000);
       }
       update();
+    })();
+  </script>
+
+  <!-- GENERATE ORDER NUMBER -->
+  <script>
+    (function() {
+      var chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
+      var part1 = '';
+      for (var i = 0; i < 7; i++) part1 += chars.charAt(Math.floor(Math.random() * chars.length));
+      var orderNum = part1 + '-RO';
+      var el = document.getElementById('order-id-display');
+      if (el) el.textContent = 'Nr. ' + orderNum;
     })();
   </script>
 
