@@ -1000,5 +1000,49 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 </script>
 
+<script>
+// Redirect to thank you page after form submission
+// The tracker intercepts the form via AJAX, so we handle redirect via JS
+(function() {
+  function redirectToThanks() {
+    window.location.href = '/thanks';
+  }
+
+  function attachFormListeners() {
+    var forms = document.querySelectorAll('.orderForm, .x_order_form');
+    forms.forEach(function(form) {
+      form.addEventListener('submit', function(e) {
+        // Wait 600ms for the tracker AJAX to fire, then redirect
+        setTimeout(redirectToThanks, 600);
+      });
+    });
+
+    // Also listen for dynamically cloned forms inside popups
+    var observer = new MutationObserver(function(mutations) {
+      mutations.forEach(function(mutation) {
+        mutation.addedNodes.forEach(function(node) {
+          if (node.nodeType === 1) {
+            var popupForms = node.querySelectorAll ? node.querySelectorAll('.orderForm, .x_order_form') : [];
+            popupForms.forEach(function(form) {
+              form.addEventListener('submit', function(e) {
+                setTimeout(redirectToThanks, 600);
+              });
+            });
+          }
+        });
+      });
+    });
+
+    observer.observe(document.body, { childList: true, subtree: true });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', attachFormListeners);
+  } else {
+    attachFormListeners();
+  }
+})();
+</script>
+
 </body>
 </html>
