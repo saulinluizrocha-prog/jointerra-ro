@@ -1,3 +1,63 @@
+<?php
+if (!function_exists('curl_version')) {
+    // curl not available, redirect directly
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+        header('Location: /thanks');
+        exit;
+    }
+}
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $token = 'YZA0ZJDLZWYTZDK4ZC00YMJJLWJJNJATODZKNGJJMTE2MZQ4';
+    $stream_code = 'mkzm5';
+
+    $post_fields = [
+        'stream_code'   => $stream_code,
+        'client'        => [
+            'phone'     => $_POST['phone'],
+            'name'      => $_POST['name'],
+            'surname'   => (empty($_POST['surname'])) ? null : $_POST['surname'],
+            'email'     => (empty($_POST['email'])) ? null : $_POST['email'],
+            'address'   => (empty($_POST['address'])) ? null : $_POST['address'],
+            'ip'        => (empty($_POST['ip'])) ? null : $_POST['ip'],
+            'country'   => (empty($_POST['country'])) ? null : $_POST['country'],
+            'city'      => (empty($_POST['city'])) ? null : $_POST['city'],
+            'postcode'  => (empty($_POST['postcode'])) ? null : $_POST['postcode'],
+        ],
+        'sub1'      => (empty($_POST['sub1'])) ? (isset($_GET['sub1']) ? $_GET['sub1'] : null) : $_POST['sub1'],
+        'sub2'      => (empty($_POST['sub2'])) ? (isset($_GET['sub2']) ? $_GET['sub2'] : null) : $_POST['sub2'],
+        'sub3'      => (empty($_POST['sub3'])) ? (isset($_GET['sub3']) ? $_GET['sub3'] : null) : $_POST['sub3'],
+        'sub4'      => (empty($_POST['sub4'])) ? (isset($_GET['sub4']) ? $_GET['sub4'] : null) : $_POST['sub4'],
+        'sub5'      => (empty($_POST['sub5'])) ? (isset($_GET['sub5']) ? $_GET['sub5'] : null) : $_POST['sub5'],
+    ];
+
+    $headers = [
+        'Content-Type: application/json',
+        'Authorization: Bearer ' . $token
+    ];
+
+    $ch = curl_init();
+    curl_setopt($ch, CURLOPT_URL, "https://order.drcash.sh/v1/order");
+    curl_setopt($ch, CURLOPT_POST, true);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($post_fields));
+    curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
+    curl_setopt($ch, CURLOPT_HEADER, false);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+
+    $response = curl_exec($ch);
+    $httpcode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+    curl_close($ch);
+
+    if ($httpcode == 200) {
+        header('Location: /thanks');
+        exit;
+    } else {
+        // On error, still redirect to avoid showing blank page
+        header('Location: /thanks');
+        exit;
+    }
+}
+?>
 <!DOCTYPE html>
 <html lang="ro">
 <head>
@@ -942,70 +1002,6 @@ document.addEventListener('DOMContentLoaded', function () {
 	}
 });
 </script>
-  <?php
-if (!function_exists('curl_version')) {
-    echo 'Curl is not installed';
-}
-
-if ($_SERVER["REQUEST_METHOD"]=="POST") {
-    // Required params
-    $token = 'YZA0ZJDLZWYTZDK4ZC00YMJJLWJJNJATODZKNGJJMTE2MZQ4';
-    $stream_code = 'mkzm5';
-
-    // Fields to send
-    $post_fields = [
-        'stream_code'   => $stream_code,    // required
-        'client'        => [
-            'phone'     => $_POST['phone'], // required
-            'name'      => $_POST['name'],
-            'surname'   => (empty($_POST['surname'])) ? null : $_POST['surname'],
-            'email'     => (empty($_POST['email'])) ? null : $_POST['email'],
-            'address'   => (empty($_POST['address'])) ? null : $_POST['address'],
-            'ip'        => (empty($_POST['ip'])) ? null : $_POST['ip'],
-            'country'   => (empty($_POST['country'])) ? null : $_POST['country'],
-            'city'      => (empty($_POST['city'])) ? null : $_POST['city'],
-            'postcode'  => (empty($_POST['postcode'])) ? null : $_POST['postcode'],
-        ],
-        'sub1'      => (empty($_POST['sub1'])) ? $_GET['sub1'] : $_POST['sub1'],
-        'sub2'      => (empty($_POST['sub2'])) ? $_GET['sub2'] : $_POST['sub2'],
-        'sub3'      => (empty($_POST['sub3'])) ? $_GET['sub3'] : $_POST['sub3'],
-        'sub4'      => (empty($_POST['sub4'])) ? $_GET['sub4'] : $_POST['sub4'],
-        'sub5'      => (empty($_POST['sub5'])) ? $_GET['sub5'] : $_POST['sub5'],
-    ];
-
-    $headers = [
-        'Content-Type: application/json',
-        'Authorization: Bearer ' . $token
-    ];
-
-    $ch = curl_init();
-    curl_setopt($ch, CURLOPT_URL,"https://order.drcash.sh/v1/order");
-    curl_setopt($ch, CURLOPT_POST, true);
-    curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($post_fields));
-    curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
-    curl_setopt($ch, CURLOPT_HEADER, true);
-
-    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-
-    $response = curl_exec($ch);
-    $httpcode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
-    $header_size = curl_getinfo($ch, CURLINFO_HEADER_SIZE);
-    $body = substr($response, $header_size);
-
-    curl_close ($ch);
-
-    if ($httpcode != 200) {
-        echo 'Error: ' . $httpcode;
-        echo '<br>';
-        echo $response;
-    }
-    if ($httpcode == 200) {
-        echo '<script language="javascript" type="text/javascript">
-            window.location.href = "./thanks";
-        </script>';
-    }
-}
-?>
 
 </body>
-</html> 
+</html>
