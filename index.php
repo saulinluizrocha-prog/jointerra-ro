@@ -8,6 +8,111 @@
   <title>Cumpără Jointerra la un preț foarte mic. Prețuri, recenzii. Comandă Jointerra acum!</title>
   <link rel="stylesheet" href="assets/css/main.css">
   <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+	<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jointerra - Susține Mobilitatea Articulară | Ofertă 119 RON</title>
+<meta name="description" content="Descoperă Jointerra pentru confortul articulațiilor tale. Reducere 50%, preț doar 119 RON. Comandă fără risc, plătești la livrare!">
+<meta name="keywords" content="jointerra, confort articular, mobilitate articulații, jointerra romania, reducere jointerra">
+<link rel="canonical" href="https://jointerra-ro.vercel.app/">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<meta name="author" content="Jointerra România">
+<meta name="language" content="ro">
+<meta name="geo.region" content="RO">
+
+<meta property="og:title" content="Jointerra - Susține Mobilitatea Articulară | Ofertă 119 RON">
+<meta property="og:description" content="Descoperă Jointerra pentru confortul articulațiilor tale. Reducere 50%, preț doar 119 RON. Comandă fără risc, plătești la livrare!">
+<meta property="og:type" content="product">
+<meta property="og:url" content="https://jointerra-ro.vercel.app/">
+<meta property="og:image" content="https://jointerra-ro.vercel.app/imagem-do-frasco.jpg">
+<meta property="og:locale" content="ro_RO">
+<meta property="og:site_name" content="Jointerra Oficial">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Jointerra - Ofertă 119 RON (Plată la Livrare)">
+<meta name="twitter:description" content="Descoperă Jointerra cu 50% reducere. Livrare sigură, plătești direct la curier!">
+<meta name="twitter:image" content="https://jointerra-ro.vercel.app/imagem-do-frasco.jpg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="dns-prefetch" href="https://fonts.googleapis.com">
+<link rel="preload" as="image" href="https://jointerra-ro.vercel.app/imagem-do-frasco.jpg" fetchpriority="high">
+	<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Product",
+      "name": "Jointerra",
+      "description": "Formulă activă dezvoltată pentru a susține mobilitatea, flexibilitatea și confortul articular zilnic.",
+      "image": "https://jointerra-ro.vercel.app/product-image.jpg",
+      "brand": {
+        "@type": "Brand",
+        "name": "Jointerra"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "RON",
+        "price": "119.00",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition",
+        "seller": {
+          "@type": "Organization",
+          "name": "Jointerra România"
+        }
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "reviewCount": "156"
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Ion Popescu"
+          },
+          "datePublished": "2025-10-15",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5"
+          },
+          "reviewBody": "Produs excelent pentru susținerea articulațiilor. Foarte mulțumit de plata la livrare și livrarea rapidă."
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Cum se face plata pentru Jointerra?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Plata se face 100% la livrare (ramburs) direct la curier, în momentul în care primiți pachetul. Nu este necesar niciun card în avans."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Cât costă produsul Jointerra?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "În acest moment, Jointerra beneficiază de o reducere de 50%. Prețul este redus de la 238 RON la doar 119 RON."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Este sigură livrarea?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Da, livrarea se face în condiții de maximă siguranță, într-un ambalaj discret, direct la adresa dumneavoastră din România."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
 
 		<script defer
   data-tag="CDyLaX9eNpvE0l8mAqQxdo"
