@@ -8,6 +8,23 @@
   <title>Cumpără Jointerra la un preț foarte mic. Prețuri, recenzii. Comandă Jointerra acum!</title>
   <link rel="stylesheet" href="assets/css/main.css">
   <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+
+		<script defer
+  data-tag="CDyLaX9eNpvE0l8mAqQxdo"
+  src="https://cdn.cckdl.com/js/base.min.js">
+</script>
+
+	<meta name="google-site-verification" content="OZ9y92gjrVGx7BCZrwjEiJqnUBSMea5Pd7iJuMbMOGk" />
+
+	<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17545472212"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-17545472212');
+</script>
   </head>
 
 <body>
