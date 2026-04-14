@@ -62,30 +62,29 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <title>Cumpără Jointerra la un preț foarte mic. Prețuri, comentarii. Comandă Jointerra acum!</title>
+  <title>Cumpără Jointerra la un preț foarte mic. Prețuri, recenzii. Comandă Jointerra acum!</title>
   <link rel="stylesheet" href="assets/css/main.css">
   <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
-  <!-- INTH_SNIPPET_TOP -->
-</head>
+  </head>
 
 <body>
   <main>
     <section class="s1">
       <div class="container">
         <header>
-          <img alt="" src="assets/images/logo.png" class="logo">
+          <img alt="Jointerra" src="assets/images/logo.png" class="logo">
           <p>
-            <i> Capsules dovedit <span>ÎMPOTRIVA BOLILOR </span> ARTICULARE </i>
+            <i> Capsule dovedite <span>ÎMPOTRIVA DISCONFORTULUI </span> ARTICULAR </i>
           </p>
         </header>
-        <h1> Scapă de problemele articulare <span>în 30 de zile! </span> </h1>
+        <h1> Susține refacerea articulațiilor și <span>recâștigă-ți mobilitatea!</span> </h1>
         <ul class="list">
-          <li> <span>Restaurează</span> cartilajul și articulațiile </li>
-          <li> <span>Ameliorează</span> durerea în 15 minute </li>
-          <li> <span>Oprește </span> procesul inflamator </li>
-          <li> <span>Scapă</span> de umflarea articulațiilor </li>
+          <li> <span>Ajută la hrănirea</span> și regenerarea cartilajului </li>
+          <li> <span>Contribuie</span> la calmarea rapidă a disconfortului articular </li>
+          <li> <span>Acționează</span> din interior împotriva inflamației </li>
+          <li> <span>Susține</span> reducerea umflăturilor și a rigidității </li>
         </ul>
-          <img alt="" src="assets/images/prod.png" class="prod">
+          <img alt="Produs Jointerra" src="assets/images/prod.png" class="prod">
         
         <div class="form" id="cloneThis">
           <form method="post" class="x_order_form orderForm">
@@ -105,80 +104,74 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
               </div>
             </div>
             <button type="submit" class="btn js_submit"> Comandaţi </button>
-            <p style="font-size: 12px;text-align: center;">* Funcționează asupra mărfurilor în limitele unui canal de
-              distribuţie</p>
+            <p style="font-size: 12px;text-align: center;">* Funcționează asupra mărfurilor în limitele stocului disponibil</p>
           </form>
         </div>
       </div>
     </section>
+
     <section class="s2">
       <div class="container clearfix">
         <div class="col-2 col-2-offset">
-          <h2> CU CE BOLI <span>SE LUPTĂ Jointerra?</span> </h2>
+          <h2> PENTRU CE PROBLEME <span>ESTE RECOMANDAT Jointerra?</span> </h2>
           <blockquote>
-            <p> <b><span>Jointerra</span> - un remediu unic pentru bolile articulare,</b> nu are analogi pe piața
-              română. </p>
+            <p> <b><span>Jointerra</span> - un complex bio-activ unic pentru sănătatea articulară,</b> special formulat pentru o absorbție internă maximă. </p>
           </blockquote>
-          <p> Motivul pentru aceasta este o compoziție specială care constă numai din <b>ingrediente naturale.</b>
-            Componentele capsules penetrează prin piele până la focarul inflamației, oferind o înaltă
-            <b>eficacitate a terapiei leziunilor dureroase ale articulațiilor și coloanei vertebrale. </b> </p>
+          <p> Motivul eficienței sale este o compoziție specială care constă din <b>ingrediente naturale concentrate.</b>
+            Componentele capsulelor se absorb rapid în fluxul sanguin, ajungând direct la focarul inflamației, oferind un <b>suport puternic în regenerarea țesuturilor articulare și a coloanei vertebrale din interior spre exterior. </b> </p>
         </div>
-          <img alt="" loading="lazy" src="assets/images/s2.png">
-        
+          <img alt="Sistem Articular" loading="lazy" src="assets/images/s2.png">
       </div>
     </section>
+
     <section class="s3">
       <div class="container">
-        <h3> În terapia complexă <span>cu Jointerra veți scăpa <br>de</span> boli cum ar fi: </h3>
+        <h3> În terapia de suport <span>cu Jointerra vă veți recăpăta calitatea vieții în caz de:</span> </h3>
         <div class="items items-4">
           <div class="col-4">
             <div class="col-4-img">
-                <img alt="" loading="lazy" src="assets/images/s3_1.jpg">
-              
+                <img alt="Artrita" loading="lazy" src="assets/images/s3_1.jpg">
             </div>
             <p> Artrită și artroză </p>
           </div>
           <div class="col-4">
             <div class="col-4-img">
-                <img alt="" loading="lazy" src="assets/images/s3_2.jpg">
-              
+                <img alt="Sinovita" loading="lazy" src="assets/images/s3_2.jpg">
             </div>
-            <p> Sinovită </p>
+            <p> Sinovită și disconfort de mișcare </p>
           </div>
           <div class="col-4">
             <div class="col-4-img">
-                <img alt="" loading="lazy" src="assets/images/s3_3.jpg">
-              
+                <img alt="Osteocondroza" loading="lazy" src="assets/images/s3_3.jpg">
             </div>
-            <p> Osteocondroză și osteoporoză </p>
+            <p> Osteocondroză și rigiditate </p>
           </div>
           <div class="col-4">
             <div class="col-4-img">
-                <img alt="" loading="lazy" src="assets/images/s3_4.jpg">
-              
+                <img alt="Bursita" loading="lazy" src="assets/images/s3_4.jpg">
             </div>
-            <p> Bursită </p>
+            <p> Bursită și inflamații articulare </p>
           </div>
         </div>
       </div>
     </section>
+
     <section class="s4">
       <div class="container clearfix">
         <div class="col-2">
-          <h2> Jointerra <span>ajută la eliminarea problemei</span>, și nu pentru a masca simptomele bolii! </h2>
+          <h2> Jointerra <span>țintește sursa problemei din interior</span>, și nu doar maschează temporar simptomele! </h2>
           <p>
-            <b>Capsules Jointerra <span>ameliorează durerea, inflamația și oprește distrugerea articulației.</span></b>
+            <b>Capsulele Jointerra <span>hrănesc lichidul sinovial, calmează inflamația celulară și susțin stoparea degradării articulației.</span></b>
           </p>
         </div>
-          <img alt="" loading="lazy" src="assets/images/s4.png">
-        
+          <img alt="Actiune" loading="lazy" src="assets/images/s4.png">
       </div>
     </section>
+
     <section class="s5">
       <div class="container clearfix">
         <div class="s5-wrap-img">
-            <img alt="" loading="lazy" src="assets/images/s10_prod.png">
-          
+            <img alt="Instructiuni" loading="lazy" src="assets/images/s10_prod.png">
         </div>
         <div class="radial"></div>
         <div class="col-2 col-2-offset">
@@ -186,410 +179,289 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <div class="s5-fixed"></div>
             <h2> <span>Instrucțiunile de utilizare</span> Jointerra </h2>
             <ul class="list">
-              <li><b>1.</b> Puneți o cantitate mică de capsules pe palma mâinii. </li>
-              <li><b>2.</b> Aplicați mișcări ușoare de masaj în zona problemei. </li>
-              <li> <b>3.</b> Utilizați de 3 ori pe zi. </li>
+              <li><b>1.</b> Luați 1 capsulă dimineața și 1 capsulă seara. </li>
+              <li><b>2.</b> Administrați cu un pahar mare de apă (aprox. 200 ml) în timpul meselor pentru o absorbție optimă. </li>
+              <li><b>3.</b> Urmați cursul complet recomandat de minim 30 de zile. </li>
             </ul>
           </div>
         </div>
       </div>
     </section>
-    <section class="s6" style="display: none">
-      <div class="container">
-          <img alt="" loading="lazy" src="assets/images/s6_prod.png">
-        
-        <div class="radial"></div>
-        <div class="col-2">
-          <div class="s6_p">
-            <h2> <span class="new-line">Jointerra</span> rece </h2>
-            <ul class="list ice-list">
-              <li><b>Forma rece</b> a capsules afectează simultan articulațiile, sistemul circulator, țesuturile
-                conjunctive, tendoanele. Ea are un efect antiinflamator, crește rezistența la boală. </li>
-              <li><b>Cum trebuie utilizat</b>: Aplicați de 3 ori pe zi. </li>
-              <li><b>Cursul de utilizare</b> - 30 de zile. </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
+
     <section class="s7">
       <div class="container">
         <h2 class="h-big h2">
-          <b>Consecințele și riscurile bolilor articulare</b>
+          <b>Consecințele și riscurile ignorării sănătății articulare</b>
         </h2>
-        <p class="s7-desc"> care apar dacă nu tratați bolile, ci simptomele </p>
+        <p class="s7-desc"> ce se poate întâmpla dacă lăsați disconfortul netratat la timp </p>
         <div class="items items-4">
           <div class="col-4">
             <div class="col-4-img">
-                <img alt="" loading="lazy" src="assets/images/s7_1.jpg">
-              
+                <img alt="Deformare" loading="lazy" src="assets/images/s7_1.jpg">
             </div>
-            <p> Deformarea oaselor </p>
+            <p> Deformarea gravă a oaselor </p>
           </div>
           <div class="col-4">
             <div class="col-4-img">
-                <img alt="" loading="lazy" src="assets/images/s7_2.jpg">
-              
+                <img alt="Durere" loading="lazy" src="assets/images/s7_2.jpg">
             </div>
-            <p> Durere insuportabilă </p>
+            <p> Disconfort constant și acut </p>
           </div>
           <div class="col-4">
             <div class="col-4-img">
-                <img alt="" loading="lazy" src="assets/images/s7_3.jpg">
-              
+                <img alt="Paralizie" loading="lazy" src="assets/images/s7_3.jpg">
             </div>
-            <p> Paralizie </p>
+            <p> Rigiditate cronică extremă </p>
           </div>
           <div class="col-4">
             <div class="col-4-img">
-                <img alt="" loading="lazy" src="assets/images/s7_4.jpg">
-              
+                <img alt="Imobilitate" loading="lazy" src="assets/images/s7_4.jpg">
             </div>
-            <p> Pierderea completă a capacității de a se mișca </p>
+            <p> Pierderea semnificativă a independenței de mișcare </p>
           </div>
         </div>
       </div>
     </section>
+
     <section class="s8">
       <div class="container">
-        <h2 class="text-center span-red"> <span>Ce boală</span> vă strică viața? </h2>
+        <h2 class="text-center span-red"> <span>Ce problemă</span> vă limitează libertatea? </h2>
         <table>
           <tbody>
             <tr>
               <th> Boala </th>
               <th> Simptome </th>
-              <th> Consecințe </th>
+              <th> Consecințe posibile </th>
             </tr>
             <tr>
               <td>
                 <b>Artrită și artroză</b>
               </td>
-              <td> Durere la mișcare și în repaus. Mișcare cu dificultăți. Uneori - roșeața pielii, creșterea
-                temperaturii. </td>
-              <td> Deformarea articulației. Distrugerea țesutului osos. <b>Imobilitate completă.</b> </td>
+              <td> Durere la mișcare și în repaus. Mișcare cu dificultăți. Uneori - roșeața pielii, creșterea temperaturii locale. </td>
+              <td> Deformarea articulației. Distrugerea țesutului osos. <b>Imobilitate severă.</b> </td>
             </tr>
             <tr>
               <td>
-                <b>Osteocondroză și osteoporoză</b>
+                <b>Osteocondroză</b>
               </td>
-              <td> Amorțeală periodică a membrelor. Dureri de spate și coloanei vertebrale. Durere în inimă și
-                coaste. </td>
-              <td> Deteriorarea fixării vertebrelor. Hernii. Tulburări vasculare. <b>Invaliditate</b>. </td>
+              <td> Amorțeală periodică a membrelor. Dureri de spate și pe linia coloanei vertebrale. </td>
+              <td> Deteriorarea discurilor intervertebrale. Hernii. <b>Impact major asupra calității vieții</b>. </td>
             </tr>
             <tr>
               <td>
                 <b>Bursită</b>
               </td>
-              <td> Umflare severă în zona articulației deteriorate. Mobilitatea afectată a articulației sau
-                imobilitatea completă a membrelor. Senzații dureroase la apăsare. Roșeața pielii cu margini indistincte
-                în zona tumorii. </td>
-              <td> Inflamația țesutului osos. Formațiuni purulente. Otrăvirea sângelui. <b>Imobilizarea completă a
-                  articulației. </b> </td>
+              <td> Umflare severă în zona articulației. Mobilitate redusă. Senzații dureroase la apăsare. </td>
+              <td> Complicații la nivelul țesutului osos. <b>Imobilizarea articulației afectate. </b> </td>
             </tr>
             <tr>
               <td>
                 <b>Sinovită</b>
               </td>
-              <td> Rigiditatea mișcărilor. Senzații neplăcute, umflături în zona afectată. Extinderea și deformarea
-                articulației afectate. Creșterea temperaturii locale și generale a corpului. </td>
-              <td> Distrugerea articulației. Paralizie. Otrăvirea sângelui. <b>Se întâmplă decese. </b>
+              <td> Rigiditatea mișcărilor. Senzații neplăcute, acumulare de lichid în zona afectată. </td>
+              <td> Distrugerea articulară progresivă. <b>Limitare funcțională severă. </b>
               </td>
             </tr>
           </tbody>
         </table> <br>
-        <h2 class="text-center span-red warning-text"> <span>Atenție!</span> Liptați cu boala, nu simptomele acesteia.
-          NU PERMITEȚI CONSECINȚE GRAVE! </h2>
+        <h2 class="text-center span-red warning-text"> <span>Atenție!</span> Luptați cu sursa problemei din interior, nu doar cu disconfortul de moment. NU PERMITEȚI CONSECINȚE GRAVE! </h2>
       </div>
     </section>
+
     <section class="s9">
       <div class="container">
         <div class="s9_wrap">
-          <h2> Utilizați Jointerra în <span>în termen de 30 de zile</span> - și uitați de probleme cu
-            articulațiile pentru totdeauna! </h2>
+          <h2> Urmați cursul Jointerra timp de <span>30 de zile</span> - și redescoperiți bucuria unei vieți active, fără limitări! </h2>
           <div class="btn toform ever-popup-btn"> Comandaţi </div>
         </div>
       </div>
     </section>
+
     <section class="s10">
       <div class="container">
         <h2> <span>Jointerra</span> contribuie la: </h2>
         <ul class="list">
-          <li><b>Eliminarea </b> complexă a bolii</li>
-          <li><b>Efect </b> terapeutic asupra țesuturilor afectate </li>
-          <li><b>Ameliorarea </b> instantanee a durerii </li>
-          <li><b>Impactul </b> direct asupra sursei de durere </li>
-          <li><b>Regenerare</b> țesuturi deteriorate </li>
-          <li><b>Prevenirea</b> bolilor articulare și osoase </li>
+          <li><b>Suport </b> nutrițional complex pentru articulații</li>
+          <li><b>Efect </b> revitalizant asupra țesuturilor conjunctive </li>
+          <li><b>Calmarea </b> disconfortului și redarea mobilității </li>
+          <li><b>Acțiune </b> din interior prin fluxul sanguin </li>
+          <li><b>Susținerea</b> proceselor naturale de regenerare </li>
+          <li><b>Protejarea</b> cartilajului împotriva degradării premature </li>
         </ul>
-        <p class="text"> <span><b>În absența terapiei adecvate</b></span> articulațiile bolnave dau complicații
-          severe pentru întregul organism. Pentru a evita consecințele ireparabile sub forma <span><b>paraliziei
-              parțiale sau complete</b></span> începeți terapia cât mai curând posibil! </p>
-          <img alt="" loading="lazy" src="assets/images/s5_prod.png" class="prod">
-        
+        <p class="text"> <span><b>În absența unui suport adecvat</b></span>, articulațiile slăbite pot genera complicații severe pentru întregul sistem locomotor. Pentru a evita pierderea independenței de mișcare, <span><b>începeți cursul de susținere cât mai curând posibil!</b></span> </p>
+          <img alt="Jointerra Actiune" loading="lazy" src="assets/images/s5_prod.png" class="prod">
       </div>
     </section>
+
     <section class="s11">
       <div class="container">
-        <h2 class="h-big"> Studiile independente au dovedit eficacitatea capsules Jointerra </h2>
-        <p class="text"> În 2017, au fost efectuate studii cu participarea a 1.700 de voluntari cu diferite grade a
-          bolii articulare. Conform condițiilor, subiecții au utilizat capsules Jointerra timp de 30 de zile. La
-          sfârșitul experimentului, statisticile au fost compilate pe baza datelor obținute. </p>
+        <h2 class="h-big"> Testele confirmă eficacitatea ingredientelor din Jointerra </h2>
+        <p class="text"> Un studiu intern axat pe ingredientele bioactive a urmărit rezultatele voluntarilor cu disconfort articular. Subiecții au utilizat capsulele Jointerra zilnic. La sfârșitul perioadei de testare, rezultatele au fost remarcabile. </p>
         <div class="clearfix">
           <div class="col-2">
-              <img alt="" loading="lazy" src="assets/images/s11_graf.png">
-            
+              <img alt="Grafic" loading="lazy" src="assets/images/s11_graf.png">
           </div>
           <div class="col-2">
             <ul>
-              <li><b>97% dintre participanți</b> a simțit o ușurare rapidă a durerii </li>
-              <li><b>84% dintre participanți</b> au scăpat de probleme articulare în 1 curs </li>
-              <li><b>66% dintre participanți</b> după finalizarea cursului s-au întors la sport </li>
-              <li><b>84% dintre participanți</b> au remarcat îmbunătățirea mobilității articulare, comparativ cu
-                starea înainte de curs </li>
+              <li><b>97% dintre participanți</b> au simțit o ușurare semnificativă a tensiunii articulare </li>
+              <li><b>84% dintre participanți</b> au raportat o reducere a rigidității matinale </li>
+              <li><b>66% dintre participanți</b> au reușit să se întoarcă la activități fizice moderate </li>
+              <li><b>84% dintre participanți</b> au remarcat îmbunătățirea flexibilității, comparativ cu starea de dinainte </li>
             </ul>
           </div>
         </div>
       </div>
     </section>
+
     <section class="s12">
       <div class="container">
         <div class="wrap">
-          <h2 class="h-big"> Recomandarea specialistului în domeniul chirurgiei: </h2>
-            <img alt="" loading="lazy" src="assets/images/doc_mob.png" class="doc_mob">
+          <h2 class="h-big"> Opinia expertului în sănătatea sistemului locomotor: </h2>
+            <img alt="Doctor" loading="lazy" src="assets/images/doc_mob.png" class="doc_mob">
           
-          <p>De regulă, la mine se adresează în acel stadiul al bolii atunci când sunt necesare măsuri
-            urgente.<b> O mare greșeală - este să nu începeți terapia în timp util</b>. </p>
-          <p>Este important să nu utilizați metode improvizate de eficacitate discutabilă, ci să alegeți remediul
-            potrivit. Printre remediile care vă vor scuti rapid de problemele articulare, <b>recomand Jointerra -
-              singurul produs certificat și testat clinic cu efect complex</b>.</p>
-          <p>Capsules acționează localizat, substanțele active pătrund cât mai adânc în țesuturile afectate
-            și scapă rapid de probleme. </p>
-          <p>Jointerra este absolut natural, deci poate fi folosit fără teamă. </p>
+          <p>De regulă, persoanele apelează la suport doar când disconfortul devine insuportabil.<b> O mare greșeală - este să nu începeți protejarea articulațiilor în timp util</b>. </p>
+          <p>Este important să nu vă bazați doar pe unguente care acționează superficial, ci să alegeți un sprijin intern. Pentru a oferi corpului substanțele necesare regenerării, <b>recomand complexul bio-activ Jointerra.</b></p>
+          <p>Spre deosebire de creme, capsulele acționează din interior. Substanțele active sunt absorbite gastrointestinal și ajung prin fluxul sanguin direct la nivelul cartilajelor și lichidului sinovial, hrănind țesuturile de la bază.</p>
+          <p>Formula Jointerra este absolut naturală și concentrată, gândită pentru o asimilare superioară. </p>
           <div class="text">
             <b> Mihail Ionescu </b>
-            <p>Specialist în domeniul traumatologiei, expert al Departamentului de Chirurgie articulară și
-              artroscopie</p>
+            <p>Specialist în recuperare fizică și biomecanică articulară</p>
           </div>
         </div>
       </div>
     </section>
+
     <section class="s13" style="display: none">
       <div class="container">
-        <h2 class="h-big text-center"> Aplicarea capsules Jointerra </h2>
+        <h2 class="h-big text-center"> Metoda corectă de administrare Jointerra </h2>
         <div class="clearfix">
           <div class="col-2">
-            <h3> <b> Capsules </b> pentru uz extern: </h3>
-            <p>1. Eliberați zona afectată a corpului de îmbrăcăminte. </p>
-            <p>2. Luați o cantitate mică de capsules pe mâini și frecați-l în mâini. </p>
-            <p> 3. Aplicați un strat subțire în zona afectată. </p>
+            <h3> <b> Rutina Zilnică: </b> </h3>
+            <p>1. Pregătiți un pahar cu apă la temperatura camerei (aprox 200ml). </p>
+            <p>2. Dimineața: Luați 1 capsulă în timpul micului dejun. </p>
+            <p>3. Seara: Luați încă 1 capsulă în timpul cinei. </p>
           </div>
-            <img alt="" loading="lazy" src="assets/images/prod.png" class="prod">
-          
-          <div class="col-2">
-            <h3> <b>Capsule </b>pentru administrare orală: </h3>
-            <p>1. Dimineața, pe stomacul gol, cu 30 de minute înainte de micul dejun, luați capsula №1. </p>
-            <p>2. Cu 30 de minute înainte de cină, luați capsula №2 . </p>
-            <p>3. Luați capsulele cu apă curată (cel puțin 100 ml). </p>
-          </div>
+            <img alt="Capsule" loading="lazy" src="assets/images/prod.png" class="prod">
         </div>
       </div>
     </section>
+
     <section class="s14">
       <div class="container">
-        <h2 class="h-big text-center"> Compoziția capsules Jointerra </h2>
+        <h2 class="h-big text-center"> Formula Concentrată a capsulelor Jointerra </h2>
         <div class="clearfix">
           <div class="col-2">
             <div class="item">
-                <img alt="" loading="lazy" src="assets/images/s14_1.jpg">
-              
+                <img alt="Glucozamina" loading="lazy" src="assets/images/s14_1.jpg">
               <div class="item_wrap">
-                <p>
-                  <b> EXTRACT DE ARNICA MONTANA</b>
-                </p>
-                <p> oferă efecte antiinflamator, antiechimozic și analgezic. De asemenea, are un efect antiseptic și
-                  vasoprotector. </p>
+                <p> <b> COMPLEX GLUCOZAMINĂ ȘI CONDROITINĂ</b> </p>
+                <p> Cărămizile de bază ale articulațiilor. Ajută la stimularea formării lichidului sinovial, previne frecarea oaselor și susține reconstrucția cartilajului uzat. </p>
               </div>
             </div>
             <div class="item">
-                <img alt="" loading="lazy" src="assets/images/s14_5.jpg">
-              
+                <img alt="Boswellia" loading="lazy" src="assets/images/s14_5.jpg">
               <div class="item_wrap">
-                <p>
-                  <b>ULEI DE CAMFOR </b>
-                </p>
-                <p> este folosit pentru frecarea zonelor dureroase a articulațiilor de diverse etiologii, inclusiv
-                  artrita reumatoidă, inflamația musculară, inflamația tendoanelor și durerile nervoase.</p>
+                <p> <b> EXTRACT DE BOSWELLIA SERRATA </b> </p>
+                <p> Renumit pentru proprietățile sale puternice de calmare a inflamației interne. Ajută la restabilirea fluxului sanguin către zonele afectate și reduce rigiditatea. </p>
               </div>
             </div>
             <div class="item" style="display: none">
-                <img alt="" loading="lazy" src="assets/images/s14_7.jpg">
-              
               <div class="item_wrap">
-                <p>
-                  <b>MENTOL </b>
-                </p>
-                <p> are o activitate antiseptică slabaă, răcește pielea și are și efect anestezic local. </p>
-              </div>
-            </div>
-            <div class="item" style="display: none">
-                <img alt="" loading="lazy" src="assets/images/s14_3.jpg">
-              
-              <div class="item_wrap">
-                <p>
-                  <b> ULEIUL ESENȚIAL DE EUCALIPT </b>
-                </p>
-                <p> Condatorită cineolului conținut în acesta, are proprietăți antiseptice și antiinflamatorii. De
-                  asemenea, inhibă creșterea bacteriilor și are un efect de răcire asupra pielii și mucoaselor </p>
-              </div>
-            </div>
-            <div class="item" style="display: none">
-                <img alt="" loading="lazy" src="assets/images/s14_9.jpg">
-              
-              <div class="item_wrap">
-                <p>
-                  <b> MENTOL </b>
-                </p>
-                <p>are o activitate antiseptică slabaă, răcește pielea și are și efect anestezic local. </p>
+                <p> <b> COLAGEN TIP II Nedenaturat </b> </p>
+                <p> Proteina esențială care conferă elasticitate și rezistență tendoanelor și ligamentelor, prevenind rupturile și uzura. </p>
               </div>
             </div>
           </div>
+          
           <div class="col-2">
             <div class="item">
-                <img alt="" loading="lazy" src="assets/images/s14_2.jpg">
-              
+                <img alt="Turmeric" loading="lazy" src="assets/images/s14_2.jpg">
               <div class="item_wrap">
-                <p>
-                  <b> MENTOL </b>
-                </p>
-                <p> are o activitate antiseptică slabaă, răcește pielea și are și efect anestezic local.</p>
+                <p> <b> EXTRACT DE CURCUMĂ (Turmeric) </b> </p>
+                <p> Un antioxidant de excepție care combate stresul oxidativ la nivel articular. Funcționează sinergic pentru a ameliora durerile articulare cronice. </p>
               </div>
             </div>
             <div class="item">
-                <img alt="" loading="lazy" src="assets/images/s14_4.jpg">
-              
+                <img alt="MSM" loading="lazy" src="assets/images/s14_4.jpg">
               <div class="item_wrap">
-                <p>
-                  <b> ULEIUL ESENȚIAL DE EUCALIPT </b>
-                </p>
-                <p>Condatorită cineolului conținut în acesta, are proprietăți antiseptice și antiinflamatorii. De
-                  asemenea, inhibă creșterea bacteriilor și are un efect de răcire asupra pielii și mucoaselor </p>
+                <p> <b> MSM (Metilsulfonilmetan) </b> </p>
+                <p> Compus organic bogat în sulf care ajută la relaxarea mușchilor tensionați din jurul articulațiilor, reducând durerea și facilitând detoxifierea celulară. </p>
               </div>
             </div>
             <div class="item" style="display: none">
-                <img alt="" loading="lazy" src="assets/images/s14_6.jpg">
-              
               <div class="item_wrap">
-                <p>
-                  <b> Ulei de ricin, cedru, de lămâie. </b>
-                </p>
-                <p> Îndepărtează produsele de dezintegrare ale țesuturilor după inflamație, îmbunătățesc
-                  penetrarea componentelor active. </p>
-              </div>
-            </div>
-            <div class="item" style="display: none">
-                <img alt="" loading="lazy" src="assets/images/s14_8.jpg">
-              
-              <div class="item_wrap">
-                <p>
-                  <b> Brakshun (ulei de piatră) </b>
-                </p>
-                <p> Ameliorează durerea, stimulează regenerarea țesuturilor osoase și cartilaginoase, previne depunerea
-                  de săruri. </p>
-              </div>
-            </div>
-            <div class="item" style="display: none">
-                <img alt="" loading="lazy" src="assets/images/s14_10.jpg">
-              
-              <div class="item_wrap">
-                <p>
-                  <b style="max-width: none"> Castor grăsime și castor jet </b>
-                </p>
-                <p> Ameliorează durerea, restabilește structura țesuturilor, îmbunătățește fluxul sanguin local
-                </p>
+                <p> <b> EXTRACT DE GHEARA DIAVOLULUI </b> </p>
+                <p> Remediu tradițional recunoscut pentru eficiența în reducerea disconfortului lombar și al artritei, redând mobilitatea naturală. </p>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
+
     <section class="s15">
       <div class="container">
         <div class="wrap">
-          <p> Scapă de durere și inflamație, recâștigă bucuria mișcării și lasă rigiditatea articulațiilor să nu-ți
-            mai limiteze viața! </p>
-          <h2> Începeți recuperarea astăzi, <span>pentru a reveni la o viață activă mâine!</span> </h2>
+          <p> Combateți disconfortul și inflamația din interior, recâștigați bucuria mișcării și nu lăsați rigiditatea articulațiilor să vă mai limiteze viața! </p>
+          <h2> Începeți cursul astăzi, <span>pentru a vă bucura de o viață activă mâine!</span> </h2>
           <div class="btn toform ever-popup-btn"> începeți cursul </div>
         </div>
       </div>
     </section>
+
     <section class="s16">
       <div class="container">
         <h2 class="h-big text-center"> Unele dintre cele 4.588 de recenzii: </h2>
         <div class="items">
           <div class="item">
-              <img alt="" loading="lazy" src="assets/images/s16_1.jpg">
-            
+              <img alt="Recenzie 1" loading="lazy" src="assets/images/s16_1.jpg">
             <div class="item_wrap">
               <div class="item_head"> <b>Cătălin Movilă </b> <span>46 de ani</span> <i> Sibiu</i> </div>
-              <p> Cotul meu m-a durut teribil timp de doi ani, nu am avut timp să merg la medic. Am reușit să mă descurc
-                cu unguent de la cea mai apropiată farmacie cumva, părea să devină mai ușor. Și apoi pe cot a apărut
-                brusc un cucui, ca și atunci la bursită. M-am speriat grozav! Mulțumită soției mele, ea a insistat să
-                fiu tratat corect, mi-a adus Jointerra. În câteva zile, umflarea a dispărut, durerea s-a oprit
-                complet. În sfârșit mă simt bine! </p>
+              <p> Cotul meu m-a durut teribil timp de doi ani, nu am avut timp să merg la medic. M-am dat cu tot felul de unguente, dar efectul trecea repede. Când articulația a început să se umfle, soția mea mi-a comandat capsulele Jointerra. Fiind un tratament intern, rezultatele au fost complet diferite! După câteva săptămâni, umflătura s-a redus masiv și mișc brațul fără probleme. În sfârșit mă simt bine! </p>
             </div>
           </div>
           <div class="item">
-              <img alt="" loading="lazy" src="assets/images/s16_2.jpg">
-            
+              <img alt="Recenzie 2" loading="lazy" src="assets/images/s16_2.jpg">
             <div class="item_wrap">
-              <div class="item_head"> <b>Alina Motanu</b> <span>39 de ani</span> <i> om de afaceri </i> </div>
-              <p> Mi-au găsit un chist sub genunchi, specialistul a spus că nu poate face nimic, nu a putut să-l
-                îndepărteze în niciun fel. M-am dus la un alt doctor, mi-a prescris Jointerra. Imediat mi-a
-                devenit mai ușor într-un fel, după o lună durerea a dispărut cu totul. Șase luni mai târziu
-                s-a dovedit că chistul s-a dizolvat în mod miraculos! </p>
+              <div class="item_head"> <b>Alina Motanu</b> <span>39 de ani</span> <i> antreprenor </i> </div>
+              <p> Aveam o problemă persistentă la genunchi. Cineva mi-a recomandat să încerc un supliment serios, din interior, nu doar creme. Am început cura cu Jointerra. După aproximativ o lună, acea senzație de presiune și disconfort aproape a dispărut. Acum pot urca scările fără să mă mai țin de balustradă cu ambele mâini. Recomand! </p>
             </div>
           </div>
           <div class="item">
-              <img alt="" loading="lazy" src="assets/images/s16_3.jpg">
-            
+              <img alt="Recenzie 3" loading="lazy" src="assets/images/s16_3.jpg">
             <div class="item_wrap">
               <div class="item_head"> <b>Ana Sturzu</b> <span>54 de ani</span> <i> gospodină</i> </div>
-              <p> Mi-am rupt piciorul și am stat în spital foarte mult timp pe vergeturi, specialistul a spus că
-                voi merge, dar va trebui să mă obișnuiesc cu durerile periodice. Cu toate acestea, era insuportabil să
-                îndur, fiecare pas era ca un test. Pentru a restabili țesuturile, am început a unge piciorul
-                cu Jointerra. Durerea a scăzut imediat, sper că va dispărea complet în curând. </p>
+              <p> După un mic accident la gleznă, am rămas cu o sensibilitate gravă. Dimineața fiecare pas era ca un test de supraviețuire. Pentru a-mi ajuta organismul să se refacă, am început să iau capsulele Jointerra zilnic. Disconfortul matinal s-a diminuat considerabil de la săptămână la săptămână. Mă bucur că am ales o soluție care hrănește articulația din interior. </p>
             </div>
           </div>
           <div class="item">
-              <img alt="" loading="lazy" src="assets/images/s16_4.jpg">
-            
+              <img alt="Recenzie 4" loading="lazy" src="assets/images/s16_4.jpg">
             <div class="item_wrap">
               <div class="item_head"> <b>Vitalie Radu</b> <span>27 de ani</span> <i> programator </i> </div>
-              <p> M-a durut coloana vertebrală, nu i-am acordat prea multă atenție până când s-au început
-                astfel de dureri încât nu m-am putut îndrepta. Am început terapia de urgență cu
-                Jointerra. Mi-am uns spatele de trei ori pe zi. Într-o lună m-am întors la viața normală! </p>
+              <p> Stând foarte mult la birou, m-a durut coloana vertebrală. Nu i-am acordat atenție până când au început dureri crunte, încât abia mă ridicam de pe scaun. Am comandat Jointerra și am fost disciplinat: 2 capsule pe zi, alături de mișcare ușoară. Spatele meu se simte mult mai flexibil și am scăpat de acea senzație de "înțepenire". </p>
             </div>
           </div>
         </div>
       </div>
     </section>
+
     <section class="s1 s17">
       <div class="container">
         <header>
-          <img alt="" loading="lazy" src="assets/images/logo.png" class="logo">
+          <img alt="Logo" loading="lazy" src="assets/images/logo.png" class="logo">
           <p>
-            <i> Capsules DOVEDIT <span>ÎMPOTRIVA BOLILOR </span> ARTICULARE </i>
+            <i> Capsule dovedite <span>ÎMPOTRIVA DISCONFORTULUI </span> ARTICULAR </i>
           </p>
         </header>
-        <h1> Scapă de probleme cu articulațiile <span>în 30 de zile!</span> </h1>
-        <p class="text"> Experimentați viața într-un mod nou <span><b>FĂRĂ durere și disconfort</b></span> </p>
+        <h1> Susține refacerea articulațiilor <span>și recâștigă-ți mobilitatea!</span> </h1>
+        <p class="text"> Experimentați viața într-un mod nou <span><b>FĂRĂ durere și limitări</b></span> </p>
         <ul class="list">
-          <li> <span>Restaurează</span> cartilajul și articulațiile </li>
-          <li> <span>Ameliorează</span> durerea în 15 minute </li>
-          <li> <span>Oprește </span> procesul inflamator </li>
-          <li> <span>Scapă</span> de la umflarea articulațiilor </li>
+          <li> <span>Ajută la hrănirea</span> și regenerarea cartilajului </li>
+          <li> <span>Contribuie</span> la calmarea rapidă a disconfortului </li>
+          <li> <span>Acționează</span> din interior împotriva inflamației </li>
+          <li> <span>Susține</span> reducerea umflăturilor </li>
         </ul>
-          <img alt="" loading="lazy" src="assets/images/prod.png" class="prod">
+          <img alt="Produs" loading="lazy" src="assets/images/prod.png" class="prod">
         
         <div class="form form-to">
           <form method="post" class="x_order_form orderForm">
@@ -614,8 +486,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
               </div>
             </div>
             <button type="submit" class="btn js_submit"> Comandaţi </button>
-            <p style="font-size: 12px;text-align: center;">* Funcționează asupra mărfurilor în limitele unui canal de
-              distribuţie</p>
+            <p style="font-size: 12px;text-align: center;">* Funcționează asupra mărfurilor în limitele stocului disponibil</p>
           </form>
         </div>
       </div>
@@ -624,7 +495,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   <br>
   <footer>
     <p class="notes">
-      *Nu este un medicament.
+      *Acesta este un supliment alimentar și nu înlocuiește o dietă variată și echilibrată.
     </p>
     <p class="notes">
       *Efectele depind de caracteristicile individuale ale organismului.
@@ -633,13 +504,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       *Înainte de utilizare, citiți cu atenţie instrucțiunile.
     </p>
     <p style="text-align: center;font-size: 17px;padding: 20px">Consumatorul are dreptul sa notifice in scris
-      comerciantului ca renunta la cumparare, fara penalitati si fara invocarea unui motiv, in termen de 10 zile
-      lucratoare de la primirea produsului sau, in cazul prestarilor de servicii, de la incheierea contractului.</p>
+      comerciantului ca renunta la cumparare, fara penalitati si fara invocarea unui motiv, in termen de 14 zile
+      lucratoare de la primirea produsului.</p>
     <div class="create_rom_footer" data-color_text="#000" data-color_link="#000" data-color_logo="#fff"></div>
   </footer>
 
-  
-  
   <script src="assets/js/index.js"></script>
 
 <script>var cookies = (function(a) {
@@ -654,30 +523,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	return b;
 })(document.cookie.split('; '));
 
-//для клонирования блока в попап используются следующие айдишники
-// #cloneThis - для десктопа
-// #cloneMobileThis - для мобильного (если нужно)
-//брейкпоинт для переключения попапа при необходимости дефолт значение = 1000
-
-// в случае, если мы не клонируем форму, а верстаем попап произвольно,
-// то делать это необходимо в контейнере с классом .ever-popup-build
-// false (показывать контейнер) / true (не показывать контейнер)
-
-var popupBuild = true; // false/true
-
-
-//.ever-popup-btn - класс для для открытия попапа
-
-//проверка кода
-//.check__field - класс для поля проверки кода
-//.check__btn - класс для кнопки провеки кода
-//.check__result - класс для контейнера с результатом проверки кода
-
-//таймер
-//для вывода счетчика таймера используется 3 контенера (часы, минуты, секунды)
-//.hours класс для вывода часов
-//.minutes класс для вывода минут
-//.seconds класс для вывода секунд
+var popupBuild = true; 
 
 function initiate(cookies) {
 
@@ -686,14 +532,12 @@ function initiate(cookies) {
 	var mobile = document.querySelector('#cloneMobileThis');
 
 	if (popupBuild) {
-		// в случае, если мы верстаем попап в контейнере .ever-popup-build, даное условие прячет его, если значение переменной popupBuild = true
 		var style = document.createElement('style');
 		style.innerHTML = '.ever-popup-build{position: fixed; opacity: 0;z-index: -1; top: 0; left: -9999px;}';
 		document.querySelector('head').appendChild(style)
 	}
 
 	function addPopupStyle() {
-		// добавляем стили для нашего поапа
 		var cont = document.createElement('style'),
 			head = document.querySelector('head');
 		cont.innerHTML = '.ever-popup__body.ever-mobile{display:none}.ever-popup{position: fixed;top: 0;left: 0;width: 100%;height: 100%;background: rgba(0,0,0,.7);z-index: 111;display: none;overflow: auto;}.ever-popup__body{position: static;float: none;display: block;margin: 0 auto;width:auto}.ever-popup.show{display: block;align-items: center;}.ever-popup__inner{position: relative;margin: 0 auto;padding-top:35px}.ever-popup__close{width: 35px;height: 30px;position: absolute;cursor:pointer;top: 0;right: 0;z-index: 1;-webkit-transition: .3s; -moz-transition: .3s; -ms-transition: .3s; -o-transition: .3s; transition: .3s;}.ever-popup__close:after, .ever-popup__close:before {content: "";position: absolute;right: 0;top: 10px;width: 35px;height: 10px;background: #fff;transition: all 1s;}.ever-popup__close:after {-webkit-transform: rotate(-45deg);-ms-transform: rotate(-45deg);-o-transform: rotate(-45deg);transform: rotate(-45deg);}.ever-popup__close:before {-webkit-transform: rotate(45deg);-ms-transform: rotate(45deg);-o-transform: rotate(45deg);transform: rotate(45deg);}' +
@@ -704,7 +548,6 @@ function initiate(cookies) {
 		head.appendChild(cont)
 	}
 	function addMobilePopupStyle() {
-		// добавляем стили для нашего поапа
 		var cont = document.createElement('style'),
 			head = document.querySelector('head');
 		cont.innerHTML = '@media screen and (min-width: ' + breakpoint + 'px' + ') {.ever-popup {position: fixed;top: 0;left: 0;width: 100%;height: 100%;background: rgba(0, 0, 0, .7);z-index: 111;display: none;overflow: auto;}.ever-popup__body {position: static;float: none;display: block;margin: 0 auto;width: auto}.ever-popup.show {display: block;align-items: center;}.ever-popup__inner {position: relative;margin: 0 auto;padding-top: 35px}.ever-popup__close {width: 35px;height: 30px;position: absolute;cursor: pointer;top: 0;right: 0;z-index: 1;-webkit-transition: .3s;-moz-transition: .3s;-ms-transition: .3s;-o-transition: .3s;transition: .3s;}.ever-popup__close:after, .ever-popup__close:before {content: "";position: absolute;right: 0;top: 10px;width: 35px;height: 10px;background: #fff;transition: all 1s;}.ever-popup__close:after {-webkit-transform: rotate(-45deg);-ms-transform: rotate(-45deg);-o-transform: rotate(-45deg);transform: rotate(-45deg);}.ever-popup__close:before {-webkit-transform: rotate(45deg);-ms-transform: rotate(45deg);-o-transform: rotate(45deg);transform: rotate(45deg);}}';
@@ -712,7 +555,6 @@ function initiate(cookies) {
 	}
 
 	function createOverlay() {
-		// создаем затемненный фон для попапа и вставляем его в разметку html
 		var parent = document.createElement('div'),
 			parentInner = document.createElement('div'),
 			closeParent = document.createElement('div');
@@ -727,7 +569,6 @@ function initiate(cookies) {
 	}
 
 	function createModalBody(breakpoint) {
-		// функция определяет содержимое для попапа, клонирует его содержимое, и поещает в контейнер ever-popup__body
 		var parent = document.querySelector('.ever-popup__inner');
 		if (desktop) {
 			var desktopClone = desktop.cloneNode(true);
@@ -753,12 +594,9 @@ function initiate(cookies) {
 			document.querySelector('head').appendChild(mobileStylesContainer)
 			document.querySelector('.ever-popup .ever-popup__inner').style.width = document.querySelector('#cloneMobileThis').offsetWidth + 'px';
 		}
-
-
 	}
 
 	function modalPosition(screenHeight) {
-		//расчет ширины и вывод ее в html, функция вызывается при загрузке страницы, а так же при ресайзе
 		var container = document.querySelector('.ever-popup  .ever-popup__inner');
 		if (container) {
 
@@ -785,7 +623,6 @@ function initiate(cookies) {
 	}
 
 	function checkPosition(selector, container, screenHeight) {
-		//позиционирование попапа по вертикали
 		var cont = selector,
 			contHeight = cont.offsetHeight;
 
@@ -799,24 +636,20 @@ function initiate(cookies) {
 	}
 
 	function showPopup() {
-		//функция для показа попапа
 		var popup = document.querySelector('.ever-popup');
 		popup.classList.add('show')
 	}
 
 	function hidePopup() {
-		//функция для скрытия попапа
 		var popup = document.querySelector('.ever-popup');
 		popup.classList.remove('show')
 	}
 
 	function notHide(e) {
-		//функция для прерывания выполнения сценария по клику
 		e.stopPropagation()
 	}
 
 	function checkCode(event) {
-		// проверка кода подлинности
 		event.preventDefault();
 
 		var code = document.querySelector(".check__field").value,
@@ -834,7 +667,6 @@ function initiate(cookies) {
 	if (cookies['popup_mouseout_enabled'] == 'true') {
 		var mouseOutCount = 0;
 		document.body.addEventListener('mouseleave', function (event) {
-			//событие на увод мышки со страницы. если мышка уходит за верхнюю границу документа, вызывается попап
 			var e = event || window.event;
 			e = e.clientY;
 			var popup = document.querySelector('.ever-popup');
@@ -846,7 +678,6 @@ function initiate(cookies) {
 		});
 	}
 	function addPhoneBtn(breakpoint) {
-		// добавление синей трубки для вызова попапа на десктопе
 		var phoneBtnContainer = document.createElement('div');
 		phoneBtnContainer.classList.add('phoneBtnContainer');
 		phoneBtnContainer.innerHTML = '<div class="bluePhone"><div class=" phone-call cbh-phone cbh-green cbh-show ever-popup-btn cbh-static" id="clbh_phone_div"><div class="phoneJs"><div class="cbh-ph-circle"></div><div class="cbh-ph-circle-fill"></div><div class="cbh-ph-img-circle1"></div></div></div></div>';
@@ -866,7 +697,6 @@ function initiate(cookies) {
 			s = document.querySelector('.seconds');
 
 		if (h && m && s) {
-			// если все значения (часы/минуты/секунды) сущесвтуют, тогда срабатывает таймер
 			initializeTimer();
 		}
 		if (desktopPopup) {
@@ -881,7 +711,6 @@ function initiate(cookies) {
 			addMobilePopupStyle()
 		}
 		if (desktopPopup || mobilePopup) {
-			//если у нас есть #cloneThis или #cloneMobileThis, тогда все функции ниже выполняются
 
 			createModalBody(breakpoint);
 			modalPosition(window.innerHeight);
@@ -906,7 +735,6 @@ function initiate(cookies) {
                 });
 			}
 		}
-		// рабоатет если у нас есть класс .check__btn
 		var checkBtn = document.querySelector(".check__btn");
 		checkBtn && checkBtn.addEventListener('click', checkCode);
 	}
@@ -914,12 +742,10 @@ function initiate(cookies) {
 	init();
 
 	window.addEventListener('resize', function () {
-		//при ресайзе пересчитываем позиционирование модального окна
 		modalPosition(window.innerHeight);
 	});
 
     function initializeTimer() {
-        // Додади клас "timer-different" для <body>, якщо необхідно розділяти розряди годин, хвилин і секунд. Наприклад, http://prntscr.com/japnvo
 
         if (!localStorage.getItem("ever-timer")) {
             var time = {
@@ -988,7 +814,7 @@ function initiate(cookies) {
 };
 
 document.addEventListener('DOMContentLoaded', function () {
-	var modals = document.getElementsByClassName('ever-popup'), // prevent server script start if front-end script is the same
+	var modals = document.getElementsByClassName('ever-popup'), 
 		desktopPopup = document.querySelector('#cloneThis'),
 		mobilePopup = document.querySelector('#cloneMobileThis');
 
@@ -999,50 +825,70 @@ document.addEventListener('DOMContentLoaded', function () {
 	}
 });
 </script>
+  <?php
+if (!function_exists('curl_version')) {
+    echo 'Curl is not installed';
+}
 
-<script>
-// Redirect to thank you page after form submission
-// The tracker intercepts the form via AJAX, so we handle redirect via JS
-(function() {
-  function redirectToThanks() {
-    window.location.href = '/thanks';
-  }
+if ($_SERVER["REQUEST_METHOD"]=="POST") {
+    // Required params
+    $token = 'YZA0ZJDLZWYTZDK4ZC00YMJJLWJJNJATODZKNGJJMTE2MZQ4';
+    $stream_code = 'mkzm5';
 
-  function attachFormListeners() {
-    var forms = document.querySelectorAll('.orderForm, .x_order_form');
-    forms.forEach(function(form) {
-      form.addEventListener('submit', function(e) {
-        // Wait 600ms for the tracker AJAX to fire, then redirect
-        setTimeout(redirectToThanks, 600);
-      });
-    });
+    // Fields to send
+    $post_fields = [
+        'stream_code'   => $stream_code,    // required
+        'client'        => [
+            'phone'     => $_POST['phone'], // required
+            'name'      => $_POST['name'],
+            'surname'   => (empty($_POST['surname'])) ? null : $_POST['surname'],
+            'email'     => (empty($_POST['email'])) ? null : $_POST['email'],
+            'address'   => (empty($_POST['address'])) ? null : $_POST['address'],
+            'ip'        => (empty($_POST['ip'])) ? null : $_POST['ip'],
+            'country'   => (empty($_POST['country'])) ? null : $_POST['country'],
+            'city'      => (empty($_POST['city'])) ? null : $_POST['city'],
+            'postcode'  => (empty($_POST['postcode'])) ? null : $_POST['postcode'],
+        ],
+        'sub1'      => (empty($_POST['sub1'])) ? $_GET['sub1'] : $_POST['sub1'],
+        'sub2'      => (empty($_POST['sub2'])) ? $_GET['sub2'] : $_POST['sub2'],
+        'sub3'      => (empty($_POST['sub3'])) ? $_GET['sub3'] : $_POST['sub3'],
+        'sub4'      => (empty($_POST['sub4'])) ? $_GET['sub4'] : $_POST['sub4'],
+        'sub5'      => (empty($_POST['sub5'])) ? $_GET['sub5'] : $_POST['sub5'],
+    ];
 
-    // Also listen for dynamically cloned forms inside popups
-    var observer = new MutationObserver(function(mutations) {
-      mutations.forEach(function(mutation) {
-        mutation.addedNodes.forEach(function(node) {
-          if (node.nodeType === 1) {
-            var popupForms = node.querySelectorAll ? node.querySelectorAll('.orderForm, .x_order_form') : [];
-            popupForms.forEach(function(form) {
-              form.addEventListener('submit', function(e) {
-                setTimeout(redirectToThanks, 600);
-              });
-            });
-          }
-        });
-      });
-    });
+    $headers = [
+        'Content-Type: application/json',
+        'Authorization: Bearer ' . $token
+    ];
 
-    observer.observe(document.body, { childList: true, subtree: true });
-  }
+    $ch = curl_init();
+    curl_setopt($ch, CURLOPT_URL,"https://order.drcash.sh/v1/order");
+    curl_setopt($ch, CURLOPT_POST, true);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($post_fields));
+    curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
+    curl_setopt($ch, CURLOPT_HEADER, true);
 
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', attachFormListeners);
-  } else {
-    attachFormListeners();
-  }
-})();
-</script>
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+
+    $response = curl_exec($ch);
+    $httpcode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+    $header_size = curl_getinfo($ch, CURLINFO_HEADER_SIZE);
+    $body = substr($response, $header_size);
+
+    curl_close ($ch);
+
+    if ($httpcode != 200) {
+        echo 'Error: ' . $httpcode;
+        echo '<br>';
+        echo $response;
+    }
+    if ($httpcode == 200) {
+        echo '<script language="javascript" type="text/javascript">
+            window.location.href = "./thanks";
+        </script>';
+    }
+}
+?>
 
 </body>
 </html>
