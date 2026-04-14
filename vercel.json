@@ -9,6 +9,14 @@
     { "src": "/thanks", "dest": "/thanks/index.html" },
     { "src": "/thanks/", "dest": "/thanks/index.html" },
     { "src": "/thanks/(.*)", "dest": "/thanks/$1" },
+    { "src": "/contact", "dest": "/contact.html" },
+    { "src": "/contact.html", "dest": "/contact.html" },
+    { "src": "/politica-de-confidentialitate", "dest": "/politica-de-confidentialitate.html" },
+    { "src": "/politica-de-confidentialitate.html", "dest": "/politica-de-confidentialitate.html" },
+    { "src": "/politica-de-livrare", "dest": "/politica-de-livrare.html" },
+    { "src": "/politica-de-livrare.html", "dest": "/politica-de-livrare.html" },
+    { "src": "/termeni-si-conditii", "dest": "/termeni-si-conditii.html" },
+    { "src": "/termeni-si-conditii.html", "dest": "/termeni-si-conditii.html" },
     { "src": "/(.*)", "dest": "/api/index.php" }
   ]
 }
