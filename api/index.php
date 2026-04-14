@@ -1,7 +1,10 @@
 <?php
+ob_start();
+error_reporting(0);
+
 if (!function_exists('curl_version')) {
-    // curl not available, redirect directly
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
+        ob_end_clean();
         header('Location: /thanks');
         exit;
     }
@@ -46,16 +49,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $response = curl_exec($ch);
     $httpcode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
-    curl_close($ch);
 
-    if ($httpcode == 200) {
-        header('Location: /thanks');
-        exit;
-    } else {
-        // On error, still redirect to avoid showing blank page
-        header('Location: /thanks');
-        exit;
-    }
+    ob_end_clean();
+    header('Location: /thanks');
+    exit;
 }
 ?>
 <!DOCTYPE html>
