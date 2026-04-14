@@ -178,8 +178,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 	<meta name="google-site-verification" content="OZ9y92gjrVGx7BCZrwjEiJqnUBSMea5Pd7iJuMbMOGk" />
 
-	<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17545472212"></script>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17545472212"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -194,24 +193,24 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <section class="s1">
       <div class="container">
         <header>
-          <img alt="Jointerra" src="assets/images/logo.png" class="logo">
+          <img alt="Jointerra original românia" src="assets/images/logo.png" class="logo">
           <p>
             <i> Capsule dovedite <span>ÎMPOTRIVA DISCONFORTULUI </span> ARTICULAR </i>
           </p>
         </header>
         <h1> Susține refacerea articulațiilor și <span>recâștigă-ți mobilitatea!</span> </h1>
         <ul class="list">
-          <li> <span>Ajută la hrănirea</span> și regenerarea cartilajului </li>
+          <li> <span>Ajută la hrănirea</span> și regenerarea cartilajului sănătos</li>
           <li> <span>Contribuie</span> la calmarea rapidă a disconfortului articular </li>
-          <li> <span>Acționează</span> din interior împotriva inflamației </li>
+          <li> <span>Acționează</span> din interior pentru <strong>confortul articular</strong> </li>
           <li> <span>Susține</span> reducerea umflăturilor și a rigidității </li>
         </ul>
-          <img alt="Produs Jointerra" src="assets/images/prod.png" class="prod">
+          <img alt="Produs Jointerra pret redus" src="assets/images/prod.png" class="prod">
         
         <div class="form" id="cloneThis">
           <form method="post" class="x_order_form orderForm">
             <div class="form_title"> Plasați o comandă </div>
-              <img loading="lazy" src="assets/images/s5_prod.png" alt="Jointerra" class="prod-inpopup">
+              <img loading="lazy" src="assets/images/s5_prod.png" alt="Comanda Jointerra" class="prod-inpopup">
             
             <p style="text-align: center;font-size: 14px;">Începutul promoției <span class="date-1"></span><br>
               Promoția se termină <span class="date-0"></span></p><br>
@@ -242,7 +241,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
           <p> Motivul eficienței sale este o compoziție specială care constă din <b>ingrediente naturale concentrate.</b>
             Componentele capsulelor se absorb rapid în fluxul sanguin, ajungând direct la focarul inflamației, oferind un <b>suport puternic în regenerarea țesuturilor articulare și a coloanei vertebrale din interior spre exterior. </b> </p>
         </div>
-          <img alt="Sistem Articular" loading="lazy" src="assets/images/s2.png">
+          <img alt="Sistem Articular si mobilitate" loading="lazy" src="assets/images/s2.png">
       </div>
     </section>
 
@@ -252,7 +251,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <div class="items items-4">
           <div class="col-4">
             <div class="col-4-img">
-                <img alt="Artrita" loading="lazy" src="assets/images/s3_1.jpg">
+                <img alt="Artrita si disconfort" loading="lazy" src="assets/images/s3_1.jpg">
             </div>
             <p> Artrită și artroză </p>
           </div>
@@ -286,14 +285,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <b>Capsulele Jointerra <span>hrănesc lichidul sinovial, calmează inflamația celulară și susțin stoparea degradării articulației.</span></b>
           </p>
         </div>
-          <img alt="Actiune" loading="lazy" src="assets/images/s4.png">
+          <img alt="Actiune Jointerra prospect" loading="lazy" src="assets/images/s4.png">
       </div>
     </section>
 
     <section class="s5">
       <div class="container clearfix">
         <div class="s5-wrap-img">
-            <img alt="Instructiuni" loading="lazy" src="assets/images/s10_prod.png">
+            <img alt="Instructiuni administrare Jointerra" loading="lazy" src="assets/images/s10_prod.png">
         </div>
         <div class="radial"></div>
         <div class="col-2 col-2-offset">
@@ -319,19 +318,19 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <div class="items items-4">
           <div class="col-4">
             <div class="col-4-img">
-                <img alt="Deformare" loading="lazy" src="assets/images/s7_1.jpg">
+                <img alt="Deformare articulara" loading="lazy" src="assets/images/s7_1.jpg">
             </div>
             <p> Deformarea gravă a oaselor </p>
           </div>
           <div class="col-4">
             <div class="col-4-img">
-                <img alt="Durere" loading="lazy" src="assets/images/s7_2.jpg">
+                <img alt="Durere articulara" loading="lazy" src="assets/images/s7_2.jpg">
             </div>
             <p> Disconfort constant și acut </p>
           </div>
           <div class="col-4">
             <div class="col-4-img">
-                <img alt="Paralizie" loading="lazy" src="assets/images/s7_3.jpg">
+                <img alt="Paralizie si rigiditate" loading="lazy" src="assets/images/s7_3.jpg">
             </div>
             <p> Rigiditate cronică extremă </p>
           </div>
@@ -411,7 +410,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
           <li><b>Protejarea</b> cartilajului împotriva degradării premature </li>
         </ul>
         <p class="text"> <span><b>În absența unui suport adecvat</b></span>, articulațiile slăbite pot genera complicații severe pentru întregul sistem locomotor. Pentru a evita pierderea independenței de mișcare, <span><b>începeți cursul de susținere cât mai curând posibil!</b></span> </p>
-          <img alt="Jointerra Actiune" loading="lazy" src="assets/images/s5_prod.png" class="prod">
+          <img alt="Jointerra Actiune in organism" loading="lazy" src="assets/images/s5_prod.png" class="prod">
       </div>
     </section>
 
@@ -421,7 +420,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <p class="text"> Un studiu intern axat pe ingredientele bioactive a urmărit rezultatele voluntarilor cu disconfort articular. Subiecții au utilizat capsulele Jointerra zilnic. La sfârșitul perioadei de testare, rezultatele au fost remarcabile. </p>
         <div class="clearfix">
           <div class="col-2">
-              <img alt="Grafic" loading="lazy" src="assets/images/s11_graf.png">
+              <img alt="Grafic studii clinice" loading="lazy" src="assets/images/s11_graf.png">
           </div>
           <div class="col-2">
             <ul>
@@ -439,15 +438,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       <div class="container">
         <div class="wrap">
           <h2 class="h-big"> Opinia expertului în sănătatea sistemului locomotor: </h2>
-            <img alt="Doctor" loading="lazy" src="assets/images/doc_mob.png" class="doc_mob">
+            <img alt="Doctor Mihail Ionescu" loading="lazy" src="assets/images/doc_mob.png" class="doc_mob">
           
           <p>De regulă, persoanele apelează la suport doar când disconfortul devine insuportabil.<b> O mare greșeală - este să nu începeți protejarea articulațiilor în timp util</b>. </p>
           <p>Este important să nu vă bazați doar pe unguente care acționează superficial, ci să alegeți un sprijin intern. Pentru a oferi corpului substanțele necesare regenerării, <b>recomand complexul bio-activ Jointerra.</b></p>
           <p>Spre deosebire de creme, capsulele acționează din interior. Substanțele active sunt absorbite gastrointestinal și ajung prin fluxul sanguin direct la nivelul cartilajelor și lichidului sinovial, hrănind țesuturile de la bază.</p>
           <p>Formula Jointerra este absolut naturală și concentrată, gândită pentru o asimilare superioară. </p>
-          <div class="text">
-            <b> Mihail Ionescu </b>
-            <p>Specialist în recuperare fizică și biomecanică articulară</p>
+          
+          <div class="text" itemscope itemtype="https://schema.org/Person">
+            <b itemprop="name"> Mihail Ionescu </b>
+            <p itemprop="jobTitle">Specialist în recuperare fizică și biomecanică articulară</p>
           </div>
         </div>
       </div>
@@ -463,7 +463,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <p>2. Dimineața: Luați 1 capsulă în timpul micului dejun. </p>
             <p>3. Seara: Luați încă 1 capsulă în timpul cinei. </p>
           </div>
-            <img alt="Capsule" loading="lazy" src="assets/images/prod.png" class="prod">
+            <img alt="Capsule Jointerra" loading="lazy" src="assets/images/prod.png" class="prod">
         </div>
       </div>
     </section>
@@ -474,7 +474,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <div class="clearfix">
           <div class="col-2">
             <div class="item">
-                <img alt="Glucozamina" loading="lazy" src="assets/images/s14_1.jpg">
+                <img alt="Glucozamina pentru articulatii" loading="lazy" src="assets/images/s14_1.jpg">
               <div class="item_wrap">
                 <p> <b> COMPLEX GLUCOZAMINĂ ȘI CONDROITINĂ</b> </p>
                 <p> Cărămizile de bază ale articulațiilor. Ajută la stimularea formării lichidului sinovial, previne frecarea oaselor și susține reconstrucția cartilajului uzat. </p>
@@ -497,14 +497,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
           
           <div class="col-2">
             <div class="item">
-                <img alt="Turmeric" loading="lazy" src="assets/images/s14_2.jpg">
+                <img alt="Turmeric curcuma" loading="lazy" src="assets/images/s14_2.jpg">
               <div class="item_wrap">
                 <p> <b> EXTRACT DE CURCUMĂ (Turmeric) </b> </p>
                 <p> Un antioxidant de excepție care combate stresul oxidativ la nivel articular. Funcționează sinergic pentru a ameliora durerile articulare cronice. </p>
               </div>
             </div>
             <div class="item">
-                <img alt="MSM" loading="lazy" src="assets/images/s14_4.jpg">
+                <img alt="MSM Metilsulfonilmetan" loading="lazy" src="assets/images/s14_4.jpg">
               <div class="item_wrap">
                 <p> <b> MSM (Metilsulfonilmetan) </b> </p>
                 <p> Compus organic bogat în sulf care ajută la relaxarea mușchilor tensionați din jurul articulațiilor, reducând durerea și facilitând detoxifierea celulară. </p>
@@ -533,36 +533,36 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     <section class="s16">
       <div class="container">
-        <h2 class="h-big text-center"> Unele dintre cele 4.588 de recenzii: </h2>
+        <h2 class="h-big text-center"> Jointerra păreri - Unele dintre cele 4.588 de recenzii: </h2>
         <div class="items">
-          <div class="item">
-              <img alt="Recenzie 1" loading="lazy" src="assets/images/s16_1.jpg">
+          <article class="item" itemscope itemtype="https://schema.org/Review">
+              <img alt="Recenzie Jointerra pareri" loading="lazy" src="assets/images/s16_1.jpg">
             <div class="item_wrap">
-              <div class="item_head"> <b>Cătălin Movilă </b> <span>46 de ani</span> <i> Sibiu</i> </div>
-              <p> Cotul meu m-a durut teribil timp de doi ani, nu am avut timp să merg la medic. M-am dat cu tot felul de unguente, dar efectul trecea repede. Când articulația a început să se umfle, soția mea mi-a comandat capsulele Jointerra. Fiind un tratament intern, rezultatele au fost complet diferite! După câteva săptămâni, umflătura s-a redus masiv și mișc brațul fără probleme. În sfârșit mă simt bine! </p>
+              <div class="item_head" itemprop="author" itemscope itemtype="https://schema.org/Person"> <b itemprop="name">Cătălin Movilă </b> <span>46 de ani</span> <i> Sibiu</i> </div>
+              <p itemprop="reviewBody"> Cotul meu m-a durut teribil timp de doi ani, nu am avut timp să merg la medic. M-am dat cu tot felul de unguente, dar efectul trecea repede. Când articulația a început să se umfle, soția mea mi-a comandat capsulele Jointerra. Fiind un tratament intern, rezultatele au fost complet diferite! După câteva săptămâni, umflătura s-a redus masiv și mișc brațul fără probleme. În sfârșit mă simt bine! </p>
             </div>
-          </div>
-          <div class="item">
-              <img alt="Recenzie 2" loading="lazy" src="assets/images/s16_2.jpg">
+          </article>
+          <article class="item" itemscope itemtype="https://schema.org/Review">
+              <img alt="Recenzie forum Jointerra" loading="lazy" src="assets/images/s16_2.jpg">
             <div class="item_wrap">
-              <div class="item_head"> <b>Alina Motanu</b> <span>39 de ani</span> <i> antreprenor </i> </div>
-              <p> Aveam o problemă persistentă la genunchi. Cineva mi-a recomandat să încerc un supliment serios, din interior, nu doar creme. Am început cura cu Jointerra. După aproximativ o lună, acea senzație de presiune și disconfort aproape a dispărut. Acum pot urca scările fără să mă mai țin de balustradă cu ambele mâini. Recomand! </p>
+              <div class="item_head" itemprop="author" itemscope itemtype="https://schema.org/Person"> <b itemprop="name">Alina Motanu</b> <span>39 de ani</span> <i> antreprenor </i> </div>
+              <p itemprop="reviewBody"> Aveam o problemă persistentă la genunchi. Cineva mi-a recomandat să încerc un supliment serios, din interior, nu doar creme. Am început cura cu Jointerra. După aproximativ o lună, acea senzație de presiune și disconfort aproape a dispărut. Acum pot urca scările fără să mă mai țin de balustradă cu ambele mâini. Recomand! </p>
             </div>
-          </div>
-          <div class="item">
+          </article>
+          <article class="item" itemscope itemtype="https://schema.org/Review">
               <img alt="Recenzie 3" loading="lazy" src="assets/images/s16_3.jpg">
             <div class="item_wrap">
-              <div class="item_head"> <b>Ana Sturzu</b> <span>54 de ani</span> <i> gospodină</i> </div>
-              <p> După un mic accident la gleznă, am rămas cu o sensibilitate gravă. Dimineața fiecare pas era ca un test de supraviețuire. Pentru a-mi ajuta organismul să se refacă, am început să iau capsulele Jointerra zilnic. Disconfortul matinal s-a diminuat considerabil de la săptămână la săptămână. Mă bucur că am ales o soluție care hrănește articulația din interior. </p>
+              <div class="item_head" itemprop="author" itemscope itemtype="https://schema.org/Person"> <b itemprop="name">Ana Sturzu</b> <span>54 de ani</span> <i> gospodină</i> </div>
+              <p itemprop="reviewBody"> După un mic accident la gleznă, am rămas cu o sensibilitate gravă. Dimineața fiecare pas era ca un test de supraviețuire. Pentru a-mi ajuta organismul să se refacă, am început să iau capsulele Jointerra zilnic. Disconfortul matinal s-a diminuat considerabil de la săptămână la săptămână. Mă bucur că am ales o soluție care hrănește articulația din interior. </p>
             </div>
-          </div>
-          <div class="item">
-              <img alt="Recenzie 4" loading="lazy" src="assets/images/s16_4.jpg">
+          </article>
+          <article class="item" itemscope itemtype="https://schema.org/Review">
+              <img alt="Recenzie client 4" loading="lazy" src="assets/images/s16_4.jpg">
             <div class="item_wrap">
-              <div class="item_head"> <b>Vitalie Radu</b> <span>27 de ani</span> <i> programator </i> </div>
-              <p> Stând foarte mult la birou, m-a durut coloana vertebrală. Nu i-am acordat atenție până când au început dureri crunte, încât abia mă ridicam de pe scaun. Am comandat Jointerra și am fost disciplinat: 2 capsule pe zi, alături de mișcare ușoară. Spatele meu se simte mult mai flexibil și am scăpat de acea senzație de "înțepenire". </p>
+              <div class="item_head" itemprop="author" itemscope itemtype="https://schema.org/Person"> <b itemprop="name">Vitalie Radu</b> <span>27 de ani</span> <i> programator </i> </div>
+              <p itemprop="reviewBody"> Stând foarte mult la birou, m-a durut coloana vertebrală. Nu i-am acordat atenție până când au început dureri crunte, încât abia mă ridicam de pe scaun. Am comandat Jointerra și am fost disciplinat: 2 capsule pe zi, alături de mișcare ușoară. Spatele meu se simte mult mai flexibil și am scăpat de acea senzație de "înțepenire". </p>
             </div>
-          </div>
+          </article>
         </div>
       </div>
     </section>
@@ -570,7 +570,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <section class="s1 s17">
       <div class="container">
         <header>
-          <img alt="Logo" loading="lazy" src="assets/images/logo.png" class="logo">
+          <img alt="Logo Jointerra" loading="lazy" src="assets/images/logo.png" class="logo">
           <p>
             <i> Capsule dovedite <span>ÎMPOTRIVA DISCONFORTULUI </span> ARTICULAR </i>
           </p>
@@ -583,7 +583,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
           <li> <span>Acționează</span> din interior împotriva inflamației </li>
           <li> <span>Susține</span> reducerea umflăturilor </li>
         </ul>
-          <img alt="Produs" loading="lazy" src="assets/images/prod.png" class="prod">
+          <img alt="Cutie Jointerra la reducere" loading="lazy" src="assets/images/prod.png" class="prod">
         
         <div class="form form-to">
           <form method="post" class="x_order_form orderForm">
@@ -628,6 +628,21 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <p style="text-align: center;font-size: 17px;padding: 20px">Consumatorul are dreptul sa notifice in scris
       comerciantului ca renunta la cumparare, fara penalitati si fara invocarea unui motiv, in termen de 14 zile
       lucratoare de la primirea produsului.</p>
+    
+	<div class="eeat-trust" style="text-align: center; padding: 20px 10px; background-color: #f9f9f9; border-top: 1px solid #ddd;">
+		<div style="margin-bottom: 15px; font-weight: bold; color: #444;">
+			<span style="display:inline-block; margin: 0 10px;">🔒 Comandă 100% Sigură</span>
+			<span style="display:inline-block; margin: 0 10px;">🛡️ Produs Original</span>
+			<span style="display:inline-block; margin: 0 10px;">🚚 Plată la Livrare (Ramburs)</span>
+		</div>
+		<nav>
+			<a href="politica-de-confidentialitate.html" style="color: #666; text-decoration: none; margin: 0 10px; font-size: 14px;">Politică de Confidențialitate</a> | 
+			<a href="termeni-si-conditii.html" style="color: #666; text-decoration: none; margin: 0 10px; font-size: 14px;">Termeni și Condiții</a> | 
+			<a href="politica-de-livrare.html" style="color: #666; text-decoration: none; margin: 0 10px; font-size: 14px;">Politică de Livrare și Retur</a> | 
+			<a href="contact.html" style="color: #666; text-decoration: none; margin: 0 10px; font-size: 14px;">Contact</a>
+		</nav>
+	</div>
+
     <div class="create_rom_footer" data-color_text="#000" data-color_link="#000" data-color_logo="#fff"></div>
   </footer>
 
