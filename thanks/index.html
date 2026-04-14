@@ -309,6 +309,30 @@
     .footer p { font-size: 12px; color: rgba(255,255,255,.35); line-height: 1.8; }
     .footer a { color: rgba(255,255,255,.35); text-decoration: none; }
 
+    /* ── ORDER NUMBER HERO ── */
+    .hero-order-num {
+      display: inline-block;
+      background: rgba(0,0,0,.35);
+      border: 1.5px solid rgba(255,255,255,.2);
+      border-radius: 12px;
+      padding: 10px 22px;
+      margin-top: 16px;
+      font-size: clamp(18px,4vw,26px);
+      font-weight: 900;
+      letter-spacing: 2px;
+      color: #6ee7b7;
+      position: relative;
+    }
+    .hero-order-label {
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: rgba(255,255,255,.55);
+      margin-top: 8px;
+      position: relative;
+    }
+
     /* ── PULSE ANIMATION ── */
     @keyframes pulse {
       0%,100%{ box-shadow: 0 0 0 0 rgba(220,38,38,.5); }
@@ -343,6 +367,8 @@
     </div>
     <h1>🎉 Comanda dvs. a fost primită!</h1>
     <p>Vă mulțumim! Comanda pentru <strong>Jointerra</strong> a fost înregistrată cu succes. Un specialist al nostru vă va contacta în scurt timp.</p>
+    <div class="hero-order-label">📦 Numărul comenzii dvs.</div>
+    <div class="hero-order-num" id="order-id-display">...</div>
   </div>
 
   <!-- MAIN -->
@@ -352,7 +378,6 @@
     <div class="order-card">
       <img class="prod-img" src="assets/images/products/product1.png" alt="Jointerra" onerror="this.style.display='none'">
       <div class="order-info">
-        <div class="order-number">📦 COMANDA DVS. &nbsp;|&nbsp; <span id="order-id-display">Nr. ...</span></div>
         <div class="order-name">Jointerra</div>
         <div class="order-sub">Capsule pentru articulații · Curs de 30 de zile<br>Livrare prin curier la adresa dvs.</div>
       </div>
